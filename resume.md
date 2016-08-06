@@ -4,12 +4,20 @@
 
 # スキル
 
-* C言語による組込みアプリケーション開発
-* JavaによるAndroidアプリケーション開発
+* C言語
+ * 組込みアプリケーション開発
+* Java
+ * Androidアプリケーション開発
 * FrontEnd(HTML/SVG/CSS/DOM/JavaScript)開発
+ * jQuery
+ * Backbone.js
+ * React.js
 * cordovaによるAndroid/iOSアプリケーション開発
 * PHPによるWebアプリケーション開発
+ * Ethna
 * Node.jsを使ったサーバーやツール開発
+ * express
+
 
 # 経歴
 
@@ -94,6 +102,12 @@
 * 平成15年7月 画像処理検定2級
 * 平成23年5月 基本情報技術者試験
 
+
+
+
 ## その他
 * 2012年1月 @ITで「Androidアプリ開発テスト入門 第3回 Androidアプリを“超”魅力的にする3種類のUIテスト」の記事執筆
   http://www.atmarkit.co.jp/fsmart/articles/androidtest03/01.html
+
+### 開発したnode.jsのモジュール
+* https://www.npmjs.com/~sassy
