@@ -17,6 +17,7 @@
  * Ethna
 * Node.jsを使ったサーバーやツール開発
  * express
+ * koa.js
 
 
 # 経歴
@@ -70,7 +71,7 @@
 * セットトップボックス向け Android移植 (ndk/NativeActivity  DTVProfile(キーイベント対応版))
 
 ### メーカー向けHTML5を利用したアプリSDK開発
-* 2014/05-
+* 2014/05-2016/07
 * cordovaをベースにマルチプラットフォームでアプリを作るためのSDKを開発
 * C言語やJava/Objective-Cで機器との通信やSVGのレンダリング等を行う
 * 上記をcordovaのプラグインとして提供する
@@ -94,7 +95,16 @@
 * クライアント側で ヒートマップを leaflet.js + heatmap.js　で作る
 * React.jsでフロントエンド部分を開発する
 
+### 簡易node.jsアプリケーションダッシュボード + node.jsアドオン開発試作
+* 2016/08
+* node.jsのWebアプリケーションを起動・終了及び起動状況確認を行なう簡易Webアプリケーション(node.jsで開発)
+* node.jsでC/C++で実装させた機能を呼び出すアドオンの開発
+ * アドオン開発のために調査したものは => http://qiita.com/sassy_watson/items/25241868be12a425f86a
 
+### ネットワーク管理システムのフロントエンド開発
+* 2016/09-
+* ネットワークの状況を確認するためのシステム
+* Web APIを叩いて状況を表示させるためのフロントエンド(HTML/CSS/JavaScript) + フロントエンドサーバー開発 (Java Servelet)
 
 ## 資格
 
