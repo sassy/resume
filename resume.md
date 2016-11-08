@@ -8,6 +8,7 @@
  * 組込みアプリケーション開発
 * Java
  * Androidアプリケーション開発
+ * JSP/サーブレット
 * FrontEnd(HTML/SVG/CSS/DOM/JavaScript)開発
  * jQuery
  * Backbone.js
@@ -64,6 +65,12 @@
 * Global版GREE Android SDKで作成されたゲームでSNS「GREE」を行うためのダッシュボードビューの開発
 * SDKを使って「GREE」アプリの開発
 
+## zigsow株式会社 2013年３月
+* キャンペーンサイトのフロントエンド開発
+
+## フリーランス 2013年7月-2013年10月
+* 株式会社CONNEXTにて NetFront NX DTVの開発の業務委託
+
 ## 株式会社ACCESS 2013年11月-
 
 ### NetFront Broser NXの開発
@@ -112,7 +119,9 @@
 * 平成15年7月 画像処理検定2級
 * 平成23年5月 基本情報技術者試験
 
+## 特許
 
+* 特開2012-078925 "情報表示装置および情報表示プログラム"
 
 
 ## その他
