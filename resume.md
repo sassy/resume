@@ -13,12 +13,14 @@
  * jQuery
  * Backbone.js
  * React.js
+ * Angular (v2-)
 * cordovaによるAndroid/iOSアプリケーション開発
 * PHPによるWebアプリケーション開発
  * Ethna
 * Node.jsを使ったサーバーやツール開発
  * express
  * koa.js
+* Python
 
 
 # 経歴
@@ -71,7 +73,7 @@
 ## フリーランス 2013年7月-2013年10月
 * 株式会社CONNEXTにて NetFront NX DTVの開発の業務委託
 
-## 株式会社ACCESS 2013年11月-
+## 株式会社ACCESS 2013年11月-2016年11月
 
 ### NetFront Broser NXの開発
 * 2013/11-2014/04
@@ -109,9 +111,15 @@
  * アドオン開発のために調査したものは => http://qiita.com/sassy_watson/items/25241868be12a425f86a
 
 ### ネットワーク管理システムのフロントエンド開発
-* 2016/09-
+* 2016/09-2016/11
 * ネットワークの状況を確認するためのシステム
 * Web APIを叩いて状況を表示させるためのフロントエンド(HTML/CSS/JavaScript) + フロントエンドサーバー開発 (Java Servelet)
+
+## 株式会社カケハシ (2016年12月-)
+
+### 電子薬歴システムMusibiの開発
+* 2016/12-
+* クライアントサイドはAngular + サーバーサイド(APIサーバー)はPython
 
 ## 資格
 
