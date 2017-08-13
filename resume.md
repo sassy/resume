@@ -15,6 +15,7 @@
  * React.js
  * Angular (v2-)
 * cordovaによるAndroid/iOSアプリケーション開発
+* Electronによるデスクトップアプリ開発
 * PHPによるWebアプリケーション開発
  * Ethna
 * Node.jsを使ったサーバーやツール開発
