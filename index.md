@@ -172,3 +172,10 @@ cordovaを提案し、社内アプリでのSDKとして提供できるような�
 
 ### 開発したnode.jsのモジュール
 * https://www.npmjs.com/~sassy
+
+### 開発したLINEClovaスキル
+* https://clova.line.me/clova-ai/skillstore/skill/io.github.com.sassy.nogibirthday
+* https://clova.line.me/clova-ai/skillstore/skill/io.sassy.github.syukkinsupport
+* https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.kawaii
+* https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.kanpai
+* https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.newterm
