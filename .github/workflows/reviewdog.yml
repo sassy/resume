@@ -1,3 +1,21 @@
-steps:
-- uses: reviewdog/action-setup@v1
-- run: reviewdog -version
+name: textlint
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  reviewdog-github-check:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm run textlint
