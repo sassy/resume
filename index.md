@@ -39,6 +39,19 @@ https://musubi.kakehashi.life/pocket-musubi
 
 toC向けアプリとして企画・開発を担当しました。
 
+toC向けアプリとして企画・開発を担当しました。
+APIサーバーをDjangoで開発し、Django Rest Frameworkを使って開発しました。
+Zappaでlambdaにdeployして利用しました。
+DBはAuroraを利用しています。
+また管理画面はAngularで開発し、Angularは常にバージョンアップしていました。
+患者様の端末は、当初iOSのアプリとして開発しましたが、患者様の年齢やリテラシーを考え、
+LINE上でのLIFFアプリ(LINEで動くWebView)で実現することにしました。
+認証等もLINE IDを使い、LINE メッセージングAPIを使って開発をしました。
+またQRコードリーダーをWebViewで行う必要があり、
+ZXingのC++ライブラリを Web Assemblerで動かすことまでやりました。
+DevOpsとして障害対応にもあたり、DataDogで障害を分析し、実際に修正や対応をすることもあります。
+
+
 ### 電子薬歴システムMusibiの開発
 * 2016/12-2019/03 (2年4ヶ月)
 * クライアントサイドAngular + サーバーサイド(APIサーバー)Python/Pyramid
