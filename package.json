@@ -61,7 +61,7 @@
     "textlint-rule-web-plus-db": "1.1.5"
   },
   "dependencies": {
-    "md-to-pdf": "^5.0.0"
+    "md-to-pdf": "^5.1.0"
   },
   "volta": {
     "node": "16.15.1"
