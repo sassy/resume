@@ -12,7 +12,6 @@
     "ja-no-redundant-expression": true,
     "ja-no-weak-phrase": true,
     "ja-unnatural-alphabet": true,
-    "max-appearence-count-of-words": false,
     "max-kanji-continuous-len": false,
     "max-ten": true,
     "no-double-negative-ja": true,
