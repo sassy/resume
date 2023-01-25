@@ -25,6 +25,7 @@
     "prefer-tari-tari": true,
     "sentence-length": true,
     "spellcheck-tech-word": true,
-    "web-plus-db": true
+    "web-plus-db": true,
+    "ja-no-mixed-period": false
   }
 }

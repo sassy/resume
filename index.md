@@ -59,9 +59,6 @@ Pocket Musubiとは別にAndroid/iOSアプリとして
 - AWS:Aurora (DBサーバー)
 - Flutter (クライアント)
 
-
-
-
 ### Pocket Musubiの開発
 * 2019/04-
 * クライアントサイドAngular + サーバーサイド(APIサーバー) Python/Django
@@ -135,6 +132,13 @@ DynamoDBはAuto Scalingにより管理もしやすく、障害にも強猪が強
 
 フロントエンドはモダンなAngularを採用し、ロジックはフロントに寄せたことから、非同期処理が多くなるために積極的にRxJSを使ってリアクティブプログラミングを行いました。
 RxJSでAPI通信することにより、フロントエンドはとてもスムーズな描画が実現できています。
+
+
+###　技術ブログの執筆
+- https://kakehashi-dev.hatenablog.com/entry/2022/11/18/120000
+- https://kakehashi-dev.hatenablog.com/entry/2022/09/26/100000
+- https://kakehashi-dev.hatenablog.com/entry/2022/01/28/090000
+- https://kakehashi-dev.hatenablog.com/entry/2021/10/19/080000
 
 
 ## 株式会社ACCESS 2013年11月-2016年11月
@@ -278,27 +282,27 @@ C言語でSVG文書をパースし、
 * キャリアとの仕様の調整と標準版のカスタマイズ
 
 
-## 資格
+# 資格
 
 * 平成15年7月 CG検定2級
 * 平成15年7月 画像処理検定2級
 * 平成23年5月 基本情報技術者試験
 
-## 特許
+# 特許
 
 * 特開2012-078925 "情報表示装置および情報表示プログラム"
  * リンク先のウェブページの取得に時間がかかる場合でも、元のウェブページの閲覧を継続できるようにする。
 
 
-## その他
+# その他
 * 2012年1月 @ITで「Androidアプリ開発テスト入門 
 第3回 Androidアプリを“超”魅力的にする3種類のUIテスト」の記事執筆
   http://www.atmarkit.co.jp/fsmart/articles/androidtest03/01.html
 
-### 開発したNode.jsのモジュール
+## 開発したNode.jsのモジュール
 * https://www.npmjs.com/~sassy
 
-### 開発したLINEClovaスキル
+## 開発したLINEClovaスキル
 * https://clova.line.me/clova-ai/skillstore/skill/io.github.com.sassy.nogibirthday
 * https://clova.line.me/clova-ai/skillstore/skill/io.sassy.github.syukkinsupport
 * https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.kawaii
