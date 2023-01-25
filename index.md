@@ -44,6 +44,24 @@
 
 ## 株式会社カケハシ (2016年12月-)
 
+## Pocket Musubi 電子お薬手帳アプリの開発
+* 2021/08-
+* クライアントサイドFlutter + サーバーサイド(APIサーバー) TypeScript(GraphQL)
+
+Pocket Musubiとは別にAndroid/iOSアプリとして
+電子お薬手帳を開発しました。
+既存の電子お薬手帳(e薬Link（イークスリンク）®といった仕様に対応)の機能を持ち、
+その上、今までのPocket Musubiの機能と連携できます。
+
+#### 技術スタック
+- AWS: AppSync / TypeScript / CDK(GraphQLサーバー) 
+- Prisma (O/Rマッパ)
+- AWS:Aurora (DBサーバー)
+- Flutter (クライアント)
+
+
+
+
 ### Pocket Musubiの開発
 * 2019/04-
 * クライアントサイドAngular + サーバーサイド(APIサーバー) Python/Django
