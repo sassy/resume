@@ -31,7 +31,7 @@
   "homepage": "https://github.com/sassy/resume#readme",
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "2.0.1",
-    "husky": "8.0.1",
+    "husky": "8.0.3",
     "lint-staged": "13.0.4",
     "textlint": "12.6.0",
     "textlint-rule-first-sentence-length": "1.0.1",
