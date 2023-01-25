@@ -44,7 +44,7 @@
 
 ## 株式会社カケハシ (2016年12月-)
 
-## Pocket Musubi 電子お薬手帳アプリの開発
+### Pocket Musubi 電子お薬手帳アプリの開発
 * 2021/08-
 * クライアントサイドFlutter + サーバーサイド(APIサーバー) TypeScript(GraphQL)
 
