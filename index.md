@@ -1,68 +1,73 @@
-
-* 渡辺 悟史(わたなべさとし)
-* 最終学歴:芝浦工業大学　システム工学部　電子情報システム学科　卒業
+- 渡辺 悟史(わたなべさとし)
+- 最終学歴:芝浦工業大学　システム工学部　電子情報システム学科　卒業
 
 # スキル
 
-* C言語
-  * 組込みアプリケーション開発
-* Java
-  * Androidアプリケーション開発
-  * JSP/サーブレット
-* Swift
-  * iOSアプリケーション開発
-* FrontEnd(HTML/SVG/CSS/DOM/JavaScript)開発
-  * jQuery
-  * Backbone.js
-  * React
-  * Angular (v2-)
-* cordovaによるAndroid/iOSアプリケーション開発
-* Electronによるデスクトップアプリ開発
-* PHPによるWebアプリケーション開発
-  * Ethna
-* Node.jsを使ったサーバーやツール開発
-  * express
-  * koa.js
-* Python
+- C言語
+  - 組込みアプリケーション開発
+- Java
+  - Androidアプリケーション開発
+  - JSP/サーブレット
+- Swift
+  - iOSアプリケーション開発
+- FrontEnd(HTML/SVG/CSS/DOM/JavaScript)開発
+  - jQuery
+  - Backbone.js
+  - React
+  - Angular (v2-)
+- cordovaによるAndroid/iOSアプリケーション開発
+- Electronによるデスクトップアプリ開発
+- PHPによるWebアプリケーション開発
+  - Ethna
+- Node.jsを使ったサーバーやツール開発
+  - express
+  - koa.js
+- Python
 
 # 何を大切にしてるか
+
 - 自らの技術で社会に貢献すること
 - 成功をみんなで喜び合いたいこと
 
 # これまで何をやってきたか
+
 - 自分の技術向上のためにキャリアを選択してきた
 - 広い守備範囲を持ち、環境に適応する能力を身につけてきた
 - 世界をネットワークで繋ぎたいと思いブラウザ開発に携わり、世界で通ずるプラットフォームを作りたいと思いゲーミンググローバルプラットフォームの会社に在籍した
 
 # これからどうなりたいか
+
 - 自分の知識と経験を社会に還元するフェーズ
 - 医療といった社会貢献ができる事業で貢献したい
 - エンジニアという立場にとどまらない。ユーザーの声を聞き、分析し、要件をまとめるところから関わりたい
-
 
 # 経歴
 
 ## 株式会社カケハシ (2016年12月-)
 
 ### Pocket Musubi 電子お薬手帳アプリの開発
-* 2021/08-
-* クライアントサイドFlutter + サーバーサイド(APIサーバー) TypeScript(GraphQL)
 
-Pocket Musubiとは別にAndroid/iOSアプリとして
-電子お薬手帳を開発しました。
+- 2021/08-
+- クライアントサイドFlutter + サーバーサイド(APIサーバー) TypeScript(GraphQL)
+
+Pocket Musubiとは別にAndroid/iOSアプリとして 電子お薬手帳を開発しました。
 既存の電子お薬手帳(e薬Link（イークスリンク）®といった仕様に対応)の機能を持ち、
 その上、今までのPocket Musubiの機能と連携できます。
 
 #### 技術スタック
-- AWS: AppSync / TypeScript / CDK(GraphQLサーバー) 
+
+- AWS: AppSync / Lamda
+- AWS: Aurora (DBサーバー)
+- sst (ServerlessStack)
+- TypeScript (サーバーサイド)
 - Prisma (O/Rマッパ)
-- AWS:Aurora (DBサーバー)
-- Flutter (クライアント)
+- Flutter (クライアント）
 
 ### Pocket Musubiの開発
-* 2019/04-
-* クライアントサイドAngular + サーバーサイド(APIサーバー) Python/Django
-* (一部iOSでSwift)
+
+- 2019/04-
+- クライアントサイドAngular + サーバーサイド(APIサーバー) Python/Django
+- (一部iOSでSwift)
 
 https://musubi.kakehashi.life/pocket-musubi
 
@@ -73,6 +78,7 @@ https://musubi.kakehashi.life/pocket-musubi
 患者様が薬局をきちんと医療機関として利用できるように促すことが目的となるプロダクトです。
 
 #### 技術スタック
+
 - Django/ Django Rest Framework/ Zappa(APIサーバー)
 - AWS:Aurora (DBサーバー)
 - Angular v12 (管理画面)
@@ -80,17 +86,18 @@ https://musubi.kakehashi.life/pocket-musubi
 - React(一部のフロントエンドアプリ)
 - ZXingC++ (QRコードライブラリ)
 
-Djangoは他言語のフレームワーク経験者(特にRuby on Rails)での利用者もキャッチアップしやすいため、採用しました。
+Djangoは他言語のフレームワーク経験者(特にRuby on
+Rails)での利用者もキャッチアップしやすいため、採用しました。
 Zappaはスケーリングなどで悩まないようにサーバーレスを用いたいために採用しました。
 Angularはセキュリティに問題がないこと、負債を残さないことを念頭に常にバージョンアップしていました。
 患者様の端末は、当初iOSのアプリとして開発しましたが、患者様の年齢やリテラシーを考え、
-LINE上のLIFFアプリで実現することにしました。
-(注: LIFFアプリとは、LINEで動くWebViewを指します)
-認証等もLINE IDを使い、LINE メッセージングAPIを使って開発をしました。
+LINE上のLIFFアプリで実現することにしました。 (注:
+LIFFアプリとは、LINEで動くWebViewを指します) 認証等もLINE IDを使い、LINE
+メッセージングAPIを使って開発をしました。
 LINEを使うことによりユーザー層も増え、現場でも導入しやすさの声が聞けました。
 
-またQRコードリーダーをWebViewで行う必要があり、
-ZXingのC++ライブラリを Web Assemblerで動かすことまでやりました。
+またQRコードリーダーをWebViewで行う必要があり、 ZXingのC++ライブラリを Web
+Assemblerで動かすことまでやりました。
 C++ライブラリを使ったのは、既存のJSで使ったライブラリではパフォーマンスの面や読み取り制度に問題があるため、C++でチューニングできるものを使用しました。
 
 DevOpsとして障害対応にもあたり、DataDogで障害を分析し、実際に修正や対応をすることもあります。
@@ -100,15 +107,16 @@ DevOpsとして障害対応にもあたり、DataDogで障害を分析し、実�
 開発当初はスクラムマスタも兼務していました。
 途中でアウトプットを優先させるため、スクラムマスタを採用し、自分は開発に専念しました。
 ただスクラムマスタの経験は無駄にはなりませんでした。
+
 - エンジニアだけのミーティングのファシリテーションを積極的に行う
 - 振り返り手法を行う
 - 普段のコミュニケーションの接着剤の役割をする
-等、縁の下の力持ちの役割を果たせるようになりました。
-
+  等、縁の下の力持ちの役割を果たせるようになりました。
 
 ### 電子薬歴システムMusibiの開発
-* 2016/12-2019/03 (2年4ヶ月)
-* クライアントサイドAngular + サーバーサイド(APIサーバー)Python/Pyramid
+
+- 2016/12-2019/03 (2年4ヶ月)
+- クライアントサイドAngular + サーバーサイド(APIサーバー)Python/Pyramid
 
 https://musubi.kakehashi.life/musubi-yakureki
 
@@ -119,7 +127,6 @@ https://musubi.kakehashi.life/musubi-yakureki
 - Angular / Electron (クライアント)
 - DynamoDB / MySQL (データベース)
 
-
 ビジネスロジックはフロントに寄せて、バックエンドでAPIサーバーを作りました。
 バックエンドはAWS上のEC2にPythonのpyramidというフレームワークで、DBはDynamoDBとMySQLを使用しました。
 Pythonの経験はデータ分析などに使いやすくとても役立ちました。
@@ -129,35 +136,39 @@ Pythonの経験はデータ分析などに使いやすくとても役立ちま�
 薬剤師さんが使う薬歴システムなので、MySQLは薬剤といったマスタを使用し、それ以外の読み書きをするデータは可用性を重視してDynamoDBで処理しています。
 DynamoDBはAuto Scalingにより管理もしやすく、障害にも強猪が強みです。
 
-
 フロントエンドはモダンなAngularを採用し、ロジックはフロントに寄せたことから、非同期処理が多くなるために積極的にRxJSを使ってリアクティブプログラミングを行いました。
 RxJSでAPI通信することにより、フロントエンドはとてもスムーズな描画が実現できています。
 
-
 ###　技術ブログの執筆
+
 - https://kakehashi-dev.hatenablog.com/entry/2022/11/18/120000
 - https://kakehashi-dev.hatenablog.com/entry/2022/09/26/100000
 - https://kakehashi-dev.hatenablog.com/entry/2022/01/28/090000
 - https://kakehashi-dev.hatenablog.com/entry/2021/10/19/080000
 
-
 ## 株式会社ACCESS 2013年11月-2016年11月
+
 ### ネットワーク管理システムのフロントエンド開発
-* 2016/09-2016/11
-* ネットワークの状況を確認するためのシステム
-* Web APIを叩いて状況を表示させるためのフロントエンド(HTML/CSS/JavaScript) + フロントエンドサーバー開発 (Java Servelet)
+
+- 2016/09-2016/11
+- ネットワークの状況を確認するためのシステム
+- Web APIを叩いて状況を表示させるためのフロントエンド(HTML/CSS/JavaScript) +
+  フロントエンドサーバー開発 (Java Servelet)
 
 ### 簡易Node.jsアプリケーションダッシュボード + Node.jsアドオン開発試作
-* 2016/08
-* Node.jsのWebアプリケーションを起動・終了及び起動状況確認を行なう簡易Webアプリケーション(Node.jsで開発)
-* Node.jsからC/C++で実装させた機能を呼び出すアドオンの開発
- * アドオン開発のために調査したものは => http://qiita.com/sassy_watson/items/25241868be12a425f86a
+
+- 2016/08
+- Node.jsのWebアプリケーションを起動・終了及び起動状況確認を行なう簡易Webアプリケーション(Node.jsで開発)
+- Node.jsからC/C++で実装させた機能を呼び出すアドオンの開発
+- アドオン開発のために調査したものは =>
+  http://qiita.com/sassy_watson/items/25241868be12a425f86a
 
 ### メーカー向けHTML5を利用したアプリSDK開発
-* 2014/05-2016/07
-* cordovaをベースにマルチプラットフォームでアプリを作るためのSDKを開発
-* C言語やJava/Objective-Cで機器との通信やSVGのレンダリング等を行う
-* 上記をcordovaのプラグインとして提供する
+
+- 2014/05-2016/07
+- cordovaをベースにマルチプラットフォームでアプリを作るためのSDKを開発
+- C言語やJava/Objective-Cで機器との通信やSVGのレンダリング等を行う
+- 上記をcordovaのプラグインとして提供する
 
 cordovaをベースにマルチプラットフォームでアプリを作るためのSDKを開発しました。
 C言語やJava/Objective-Cで機器との通信やSVGのレンダリング等を行う開発し、
@@ -169,73 +180,84 @@ cordovaを提案し、社内アプリでのSDKとして提供できるような�
 レンダリング部分はSVGを利用し、それを分割してJPEG変換、プリンタのドライバに渡すという処理を書きましたが、C言語でこの部分を実装しました。
 
 ### ACCESS Connect車載Profile
-* 2015/06-2015/08
-* クライアント側で ヒートマップを leaflet.js + heatmap.js　で作る
-* React.jsでフロントエンド部分を開発する
 
+- 2015/06-2015/08
+- クライアント側で ヒートマップを leaflet.js + heatmap.js　で作る
+- React.jsでフロントエンド部分を開発する
 
-###  Vehicle API  polyfill
-* 2014/10-2014/11
-* Vehicle APIを使ったHTMLアプリを動かすためのJavaScrpit polyfillを作成
- * https://rawgit.com/w3c/automotive-bg/master/snapshots/vehicle_spec_snapshot_latest.html
-  * https://rawgit.com/w3c/automotive-bg/master/snapshots/data_spec_snapshot_latest.html
-* 車載のデータを取得し、APIで取得できるようにする
+### Vehicle API polyfill
 
+- 2014/10-2014/11
+- Vehicle APIを使ったHTMLアプリを動かすためのJavaScrpit polyfillを作成
+- https://rawgit.com/w3c/automotive-bg/master/snapshots/vehicle_spec_snapshot_latest.html
+- https://rawgit.com/w3c/automotive-bg/master/snapshots/data_spec_snapshot_latest.html
+- 車載のデータを取得し、APIで取得できるようにする
 
 ### 車載SNS連携試作
-* 2014/5
-* Windows Azure上で SNSを取得してAPIで提供 C#
-* 車載器のクライアントからAzure上のWeb APIを叩いて情報を取得
-* Client側はJava
+
+- 2014/5
+- Windows Azure上で SNSを取得してAPIで提供 C#
+- 車載器のクライアントからAzure上のWeb APIを叩いて情報を取得
+- Client側はJava
 
 ### NetFront Broser NXの開発
-* 2013/11-2014/04
-* セットトップボックス向け Android移植 (ndk/NativeActivity  DTVProfile(キーイベント対応版))
 
+- 2013/11-2014/04
+- セットトップボックス向け Android移植 (ndk/NativeActivity
+  DTVProfile(キーイベント対応版))
 
 ## フリーランス 2013年7月-2013年10月
-* 株式会社CONNEXTにて NetFront NX DTVの開発の業務委託
+
+- 株式会社CONNEXTにて NetFront NX DTVの開発の業務委託
 
 ## zigsow株式会社 2013年３月
-* キャンペーンサイトのフロントエンド開発
+
+- キャンペーンサイトのフロントエンド開発
 
 ## グリー株式会社(2011年9月-2013年2月)
 
 #### Global向けAndroid版SDK及びGlobal版Android版SNSアプリケーション「GREE」の開発
-* 2011年12月 -2013年２月
-* Global版GREE Android SDK作成されたゲームからSNS「GREE」を表示するダッシュボードビューの開発
-* SDKを使って「GREE」アプリの開発
+
+- 2011年12月 -2013年２月
+- Global版GREE Android
+  SDK作成されたゲームからSNS「GREE」を表示するダッシュボードビューの開発
+- SDKを使って「GREE」アプリの開発
 
 グリーSNSのAndroidを国際化対応したアプリにリニューアルすべく、一からアプリ開発とそれに必要なSDKの開発を担当しました。
-WebViewベースのハイブリットアプリでしたが、スライドメニューやPull To Refreshといった部分はネイティブで自前の実装しました。
+WebViewベースのハイブリットアプリでしたが、スライドメニューやPull To
+Refreshといった部分はネイティブで自前の実装しました。
 フロント部分のサーバーはNode.jsでそこからフロント画面を取得する形式でした。
 スライドメニューは当時そのようなウィジェットがなかったので、自前の実装でしたが、Viewを重ねる部分の実装に苦労しました。
-Pull to Refreshも自前実装だったため、引っ張る部分にViewを入れてタッチが外れたら元に戻す等の実装をいくつか試作し、一番パフォーマンスが上がる実装を選択しました。
+Pull to
+Refreshも自前実装だったため、引っ張る部分にViewを入れてタッチが外れたら元に戻す等の実装をいくつか試作し、一番パフォーマンスが上がる実装を選択しました。
 当初はWebViewを重ねてキャッシュしておくことで画面がすぐにバックできる仕様でしたが、
 WebViewを重ねると重くなることがわかり、WebView一枚にするという決断をしました。
 社内でも評価されたプロジェクトでした。
 
 ### Android版SNSアプリケーション「GREE」の開発
-* 2011年9月-2011年12月
-* SNS「GREE」を行うためのアプリケーションのAndroid版の開発
 
+- 2011年9月-2011年12月
+- SNS「GREE」を行うためのアプリケーションのAndroid版の開発
 
 ## 株式会社ACCESS 2005年4月-2011年8月
 
 ### 広告配信システムのクライアント側開発
-* 2011年4月-2011年8月
-* Androidアプリケーションへの広告配信のしくみを検討し、Androidクライアント側のSDKの開発
+
+- 2011年4月-2011年8月
+- Androidアプリケーションへの広告配信のしくみを検討し、Androidクライアント側のSDKの開発
 
 ### Android用ブラウザ NetFront Life Browserの開発
-* 2010年6月-2011年3月
-* Android用ブラウザアプリケーションでの、NetFront Life Browserの開発
-* 今まで行ってきたBtoBではなく、初めてのBtoCプロジェクトで、Androidマーケットで直接ユーザにダウンロードしてもらうアプリケーションを開発
-* ページローディング中のサムネイル表示、ダウンローダー、急上昇Wordの設計・実装
- * ページローディング中のサムネイル表示は特許出願を行った。
-* 法人向けブラウザとして、マーケットにリリースしたものをベースにカスタマイズする案件での、案件チームとの窓口も行う。
-* 社内で初めてアジャイル開発(スクラム)を導入
 
-Android用ブラウザアプリケーションでの、NetFront Life Browserの開発を担当しました。
+- 2010年6月-2011年3月
+- Android用ブラウザアプリケーションでの、NetFront Life Browserの開発
+- 今まで行ってきたBtoBではなく、初めてのBtoCプロジェクトで、Androidマーケットで直接ユーザにダウンロードしてもらうアプリケーションを開発
+- ページローディング中のサムネイル表示、ダウンローダー、急上昇Wordの設計・実装
+- ページローディング中のサムネイル表示は特許出願を行った。
+- 法人向けブラウザとして、マーケットにリリースしたものをベースにカスタマイズする案件での、案件チームとの窓口も行う。
+- 社内で初めてアジャイル開発(スクラム)を導入
+
+Android用ブラウザアプリケーションでの、NetFront Life
+Browserの開発を担当しました。
 社内では、今まで行ってきたBtoBではなく、初めてのBtoCプロジェクトで、Androidマーケットで直接ユーザにダウンロードしてもらうアプリケーションを開発ができました。
 また、社内での初めてのスクラムでの開発でした。
 
@@ -247,12 +269,12 @@ Android用ブラウザアプリケーションでの、NetFront Life Browserの�
 
 法人向けブラウザとして、マーケットにリリースしたものをベースにカスタマイズする案件での、案件チームとの窓口も行いました。
 
-
 ### 組込み向けブラウザ次期バージョンの開発
-* 2008年4月-2010年5月
-* 組込み向けにHTML5対応ブラウザの開発
-* HTML/DOM/画像処理を担当する5人ぐらいのチームリーダーとして、サポートする仕様の調整やチーム間のコミュニケーション、チームメンバーの技術的サポート。
-* 自らは画像表示やDOMメソッドの設計とコーディングを行う。
+
+- 2008年4月-2010年5月
+- 組込み向けにHTML5対応ブラウザの開発
+- HTML/DOM/画像処理を担当する5人ぐらいのチームリーダーとして、サポートする仕様の調整やチーム間のコミュニケーション、チームメンバーの技術的サポート。
+- 自らは画像表示やDOMメソッドの設計とコーディングを行う。
 
 組込み向けHTML5対応ブラウザの開発を一から行いました。
 HTML/DOM/画像処理を担当する5人ぐらいのチームリーダーとして、サポートする仕様の調整やチーム間のコミュニケーション、チームメンバーの技術的サポートをしました。
@@ -260,16 +282,25 @@ HTML/DOM/画像処理を担当する5人ぐらいのチームリーダーとし�
 C言語でメモリを気にしてコーディングする経験は今も生きています。
 
 ### NetFront Browser v3のコアエンジン開発
-* 2005年5月-2008年3月
-* 組込みむけブラウザである、NetFront Browserのレンダリングエンジンの開発とメンテナンスを行う。
-* 入社時から2007年1月までは、主にSVGモジュールのオーナーとして、新規機能の開発
-(W3CのSVGTiny1.2対応/JavaでSVGを利用するための仕様であるJSR-226対応)や品質向上(不具合修正やアンチエイリアシング対応)を行う。
-* 2007年2月以降は案件の窓口とブラウザレンダリングエンジンとメモリマネージャの不具合修正、品質向上の活動しました。
 
-組込みブラウザである、NetFront Browserのレンダリングエンジンの開発とメンテナンスを行いました。
-NTT docomoやVodafoneといったキャリア向けのブラウザで、
-とても多くの人に使われました。
-当時新卒として入社してから2007年1月までは、
+- 2005年5月-2008年3月
+- 組込みむけブラウザである、NetFront
+  Browserのレンダリングエンジンの開発とメンテナンスを行う。
+
+
+
+
+
+
+- 入社時から2007年1月までは、主にSVGモジュールのオーナーとして、
+新規機能の開発(W3CのSVGTiny1.2対応/JavaでSVGを利用するための仕様であるJSR-226対応)や
+品質向上(不具合修正やアンチエイリアシング対応)を行う。
+- 2007年2月以降は案件の窓口とブラウザレンダリングエンジンとメモリマネージャの不具合修正、品質向上の活動しました。
+
+組込みブラウザである、NetFront
+Browserのレンダリングエンジンの開発とメンテナンスを行いました。 NTT
+docomoやVodafoneといったキャリア向けのブラウザで、
+とても多くの人に使われました。 当時新卒として入社してから2007年1月までは、
 主にSVGモジュールのオーナーとして活動しました。
 新規機能の開発(W3CのSVGTiny1.2対応/JavaでSVGを利用するための仕様であるJSR-226対応)や品質向上(不具合修正やアンチエイリアシング対応)を行いました。
 C言語でSVG文書をパースし、
@@ -277,34 +308,36 @@ C言語でSVG文書をパースし、
 2007年2月以降は案件の窓口とブラウザレンダリングエンジンとメモリマネージャの不具合修正、品質向上の活動しました。
 
 ### キャリアサービス試作案件
-* 2005年8月-2005年12月
-* キャリア提案の新規サービス(SVGを利用したメール・HTMLを利用した待ち受け)の試作のための標準版の開発
-* キャリアとの仕様の調整と標準版のカスタマイズ
 
+- 2005年8月-2005年12月
+- キャリア提案の新規サービス(SVGを利用したメール・HTMLを利用した待ち受け)の試作のための標準版の開発
+- キャリアとの仕様の調整と標準版のカスタマイズ
 
 # 資格
 
-* 平成15年7月 CG検定2級
-* 平成15年7月 画像処理検定2級
-* 平成23年5月 基本情報技術者試験
+- 平成15年7月 CG検定2級
+- 平成15年7月 画像処理検定2級
+- 平成23年5月 基本情報技術者試験
 
 # 特許
 
-* 特開2012-078925 "情報表示装置および情報表示プログラム"
- * リンク先のウェブページの取得に時間がかかる場合でも、元のウェブページの閲覧を継続できるようにする。
-
+- 特開2012-078925 "情報表示装置および情報表示プログラム"
+- リンク先のウェブページの取得に時間がかかる場合でも、元のウェブページの閲覧を継続できるようにする。
 
 # その他
-* 2012年1月 @ITで「Androidアプリ開発テスト入門 
-第3回 Androidアプリを“超”魅力的にする3種類のUIテスト」の記事執筆
+
+- 2012年1月 @ITで「Androidアプリ開発テスト入門 第3回
+  Androidアプリを“超”魅力的にする3種類のUIテスト」の記事執筆
   http://www.atmarkit.co.jp/fsmart/articles/androidtest03/01.html
 
 ## 開発したNode.jsのモジュール
-* https://www.npmjs.com/~sassy
+
+- https://www.npmjs.com/~sassy
 
 ## 開発したLINEClovaスキル
-* https://clova.line.me/clova-ai/skillstore/skill/io.github.com.sassy.nogibirthday
-* https://clova.line.me/clova-ai/skillstore/skill/io.sassy.github.syukkinsupport
-* https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.kawaii
-* https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.kanpai
-* https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.newterm
+
+- https://clova.line.me/clova-ai/skillstore/skill/io.github.com.sassy.nogibirthday
+- https://clova.line.me/clova-ai/skillstore/skill/io.sassy.github.syukkinsupport
+- https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.kawaii
+- https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.kanpai
+- https://clova.line.me/clova-ai/skillstore/skill/com.github.sassy.newterm
