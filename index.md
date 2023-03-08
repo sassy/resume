@@ -54,14 +54,22 @@ Pocket Musubiとは別にAndroid/iOSアプリとして 電子お薬手帳を開�
 既存の電子お薬手帳(e薬Link（イークスリンク）®といった仕様に対応)の機能を持ち、
 その上、今までのPocket Musubiの機能と連携できます。
 
+https://apps.apple.com/jp/app/%E3%81%8A%E3%81%8F%E3%81%99%E3%82%8A%E9%80%A3%E7%B5%A1%E5%B8%B3/id1594523400
+
 #### 技術スタック
 
 - AWS: AppSync / Lamda
 - AWS: Aurora (DBサーバー)
-- sst (ServerlessStack)
+- sst (Serverless　Stack)
+- Apollo Server
 - TypeScript (サーバーサイド)
 - Prisma (O/Rマッパ)
 - Flutter (クライアント）
+
+お薬手帳はiOS/ANdroidアプリにするということで、アプリ側はFlutterによるクロスプラットフォームフレームワークを利用しました。
+GraphQL APIを利用することにしたので、バックエンドはApollo Serverを利用し、O/RマッパーとしてPrismaを利用することにしました。
+インフラの環境構築はServerless Stackを利用しました。
+
 
 ### Pocket Musubiの開発
 
