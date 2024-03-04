@@ -47,7 +47,7 @@
 
 ### Pocket Musubi 電子お薬手帳アプリの開発
 
-- 2021/08-
+- 2021/08-2023/03
 - クライアントサイドFlutter + サーバーサイド(APIサーバー) TypeScript(GraphQL)
 
 Pocket Musubiとは別にAndroid/iOSアプリとして 電子お薬手帳を開発しました。
@@ -74,7 +74,7 @@ GraphQL APIを利用することにしたので、バックエンドはApollo Se
 ### Pocket Musubiの開発
 
 - 2019/04-
-- クライアントサイドAngular + サーバーサイド(APIサーバー) Python/Django
+- クライアントサイドAngular => Next.js + サーバーサイド(APIサーバー) Python/Django
 - (一部iOSでSwift)
 
 https://musubi.kakehashi.life/pocket-musubi
@@ -89,8 +89,8 @@ https://musubi.kakehashi.life/pocket-musubi
 
 - Django/ Django Rest Framework/ Zappa(APIサーバー)
 - AWS:Aurora (DBサーバー)
-- Angular v12 (管理画面)
-- Angular v12/ LIFF(LINE FrontEnd Framework) (モバイルアプリ)
+- Angular v12 (管理画面) => Next.js
+- Angular v12 => Next.js / LIFF(LINE FrontEnd Framework) (モバイルアプリ)
 - React(一部のフロントエンドアプリ)
 - ZXingC++ (QRコードライブラリ)
 
@@ -120,6 +120,9 @@ DevOpsとして障害対応にもあたり、DataDogで障害を分析し、実�
 - 振り返り手法を行う
 - 普段のコミュニケーションの接着剤の役割をする
   等、縁の下の力持ちの役割を果たせるようになりました。
+
+メンバーの経験が多かったので、開発当初はAngularを採用していましたが、エンジニア市場で経験が多いReactに切り替えるため、Next.jsにフレームワークを置き換えました。
+現在は管理画面、LIFF両方Next.jsで動いています。
 
 ### 電子薬歴システムMusibiの開発
 
