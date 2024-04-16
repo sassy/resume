@@ -150,8 +150,7 @@ DynamoDBはAuto Scalingにより管理もしやすく、障害にも強猪が強
 フロントエンドはモダンなAngularを採用し、ロジックはフロントに寄せたことから、非同期処理が多くなるために積極的にRxJSを使ってリアクティブプログラミングを行いました。
 RxJSでAPI通信することにより、フロントエンドはとてもスムーズな描画が実現できています。
 
-###　技術ブログの執筆
-
+### 技術ブログの執筆
 - https://kakehashi-dev.hatenablog.com/entry/2022/11/18/120000
 - https://kakehashi-dev.hatenablog.com/entry/2022/09/26/100000
 - https://kakehashi-dev.hatenablog.com/entry/2022/01/28/090000
