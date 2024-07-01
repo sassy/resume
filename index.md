@@ -26,6 +26,7 @@
 
 # 何を大切にしてるか
 
+- プロダクトの価値を最大化し、社会に貢献すること
 - 自らの技術で社会に貢献すること
 - 成功をみんなで喜び合いたいこと
 
@@ -39,43 +40,19 @@
 
 - 自分の知識と経験を社会に還元するフェーズ
 - 医療といった社会貢献ができる事業で貢献したい
-- エンジニアという立場にとどまらない。ユーザーの声を聞き、分析し、要件をまとめるところから関わりたい
+- 技術は手段である。エンジニアという立場にとどまらない。ユーザーの声を聞き、分析し、要件をまとめるところから関わりたい
 
 # 経歴
 
 ## 株式会社カケハシ (2016年12月-)
-
-### Pocket Musubi 電子お薬手帳アプリの開発
-
-- 2021/08-2023/03
-- クライアントサイドFlutter + サーバーサイド(APIサーバー) TypeScript(GraphQL)
-
-Pocket Musubiとは別にAndroid/iOSアプリとして 電子お薬手帳を開発しました。
-既存の電子お薬手帳(e薬Link（イークスリンク）®といった仕様に対応)の機能を持ち、
-その上、今までのPocket Musubiの機能と連携できます。
-
-https://apps.apple.com/jp/app/%E3%81%8A%E3%81%8F%E3%81%99%E3%82%8A%E9%80%A3%E7%B5%A1%E5%B8%B3/id1594523400
-
-#### 技術スタック
-
-- AWS: AppSync / Lamda
-- AWS: Aurora (DBサーバー)
-- sst (Serverless　Stack)
-- Apollo Server
-- TypeScript (サーバーサイド)
-- Prisma (O/Rマッパ)
-- Flutter (クライアント）
-
-お薬手帳はiOS/ANdroidアプリにするということで、アプリ側はFlutterによるクロスプラットフォームフレームワークを利用しました。
-GraphQL APIを利用することにしたので、バックエンドはApollo Serverを利用し、O/RマッパーとしてPrismaを利用することにしました。
-インフラの環境構築はServerless Stackを利用しました。
-
 
 ### Pocket Musubiの開発
 
 - 2019/04-
 - クライアントサイドAngular => Next.js + サーバーサイド(APIサーバー) Python/Django
 - (一部iOSでSwift)
+- メンバー 4-6人
+- 役割: エンジニア/スクラムマスター
 
 https://musubi.kakehashi.life/pocket-musubi
 
@@ -124,10 +101,45 @@ DevOpsとして障害対応にもあたり、DataDogで障害を分析し、実�
 メンバーの経験が多かったので、開発当初はAngularを採用していましたが、エンジニア市場で経験が多いReactに切り替えるため、Next.jsにフレームワークを置き換えました。
 現在は管理画面、LIFF両方Next.jsで動いています。
 
+## 育児休業
+2023年4月1日-2023年9月
+第一子誕生のため育児休業取得
+2023年10月より、復帰しPocket Musubi開発チームにアサイン
+
+### Pocket Musubi 電子お薬手帳アプリの開発
+
+- 2021/08-2023/03
+- クライアントサイドFlutter + サーバーサイド(APIサーバー) TypeScript(GraphQL)
+- メンバー 6人
+- 役割 エンジニア
+
+Pocket Musubiとは別にAndroid/iOSアプリとして 電子お薬手帳を開発しました。
+既存の電子お薬手帳(e薬Link（イークスリンク）®といった仕様に対応)の機能を持ち、
+その上、今までのPocket Musubiの機能と連携できます。
+
+https://apps.apple.com/jp/app/%E3%81%8A%E3%81%8F%E3%81%99%E3%82%8A%E9%80%A3%E7%B5%A1%E5%B8%B3/id1594523400
+
+#### 技術スタック
+
+- AWS: AppSync / Lamda
+- AWS: Aurora (DBサーバー)
+- sst (Serverless　Stack)
+- Apollo Server
+- TypeScript (サーバーサイド)
+- Prisma (O/Rマッパ)
+- Flutter (クライアント）
+
+お薬手帳はiOS/ANdroidアプリにするということで、アプリ側はFlutterによるクロスプラットフォームフレームワークを利用しました。
+GraphQL APIを利用することにしたので、バックエンドはApollo Serverを利用し、O/RマッパーとしてPrismaを利用することにしました。
+インフラの環境構築はServerless Stackを利用しました。
+
+
 ### 電子薬歴システムMusibiの開発
 
 - 2016/12-2019/03 (2年4ヶ月)
 - クライアントサイドAngular + サーバーサイド(APIサーバー)Python/Pyramid
+- メンバー 4-9人
+- 役割: エンジニア
 
 https://musubi.kakehashi.life/musubi-yakureki
 
