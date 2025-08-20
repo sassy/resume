@@ -1,0 +1,26 @@
+name: Sync Resume to LAPRAS
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'index.md' # 職務経歴書markdownファイルのパスを指定
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync Resume to LAPRAS
+        uses: lapras-inc/resume-sync-action@v0.1.0
+        with:
+          # 職務経歴書markdownファイルのパス
+          resume_path: ./resume.md
+          # LAPRASの設定画面で発行したAPIキー
+          lapras_api_key: ${{ secrets.LAPRAS_API_KEY }}
+          # 利用するLLMのAPIキー
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
