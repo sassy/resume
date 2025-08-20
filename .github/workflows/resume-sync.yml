@@ -19,7 +19,7 @@ jobs:
         uses: lapras-inc/resume-sync-action@v0.1.0
         with:
           # 職務経歴書markdownファイルのパス
-          resume_path: ./resume.md
+          resume_path: ./index.md
           # LAPRASの設定画面で発行したAPIキー
           lapras_api_key: ${{ secrets.LAPRAS_API_KEY }}
           # 利用するLLMのAPIキー
