@@ -1,11 +1,6 @@
 name: Sync Resume to LAPRAS
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'index.md' # 職務経歴書markdownファイルのパスを指定
   workflow_dispatch:
 
 jobs:
