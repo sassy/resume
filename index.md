@@ -68,7 +68,15 @@
 https://doctormate.co.jp/psychiatry
 
 #### 技術スタック
+- Rust
+- axum
+- async-graphql
+- Google cloud
+- Firestore
+- Next.js
 
+APIサーバーはRustで、axumフレームワークで構築
+DDDを採用
 
 ## 株式会社カケハシ (2016年12月-2024年11月)
 
