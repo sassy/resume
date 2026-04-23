@@ -75,8 +75,13 @@ https://doctormate.co.jp/psychiatry
 - Firestore
 - Next.js
 
-APIサーバーはRustで、axumフレームワークで構築
-DDDを採用
+APIサーバーはRustで、axumフレームワークで構築しており、
+async-graphql で GraphQL を実装しています。
+アーキテクチャはDDD + CQRS + ヘキサゴナルアーキテクチャを採用。
+Command側とQuery層で分けて実装しており
+ヘキサゴナルアーキテクチャを採用し、Firestoreのアクセスはinfra層、
+GraphQLでの実装はAPI層、Domain層に集約がありユースケースはCommand側とQuery層で実装しています。
+
 
 ## 株式会社カケハシ (2016年12月-2024年11月)
 
